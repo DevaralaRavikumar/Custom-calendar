@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:weightSum="1"
+        android:background="@drawable/layout_bg_new"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/day_name"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorDarkBlue"
+            tools:text="FR"/>
+
+        <TextView
+            android:id="@+id/day_date"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorDarkBlue"
+            tools:text="12" />
+        <View
+            android:id="@+id/ticket_indicator"
+            android:layout_width="35dp"
+            android:background="@color/colorOrange"
+            android:layout_marginBottom="10dp"
+            android:layout_height="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
